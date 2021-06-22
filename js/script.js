@@ -96,7 +96,7 @@ $(document).ready(function(){
     $(".tab .tab_cont > div span").click(function(){
         var $index = $(this).closest("li").index()+1;
         console.log($index);
-        $(this).closest("html").find(".popup .img").css({"background-image":"url(./img/interior_0"+$index+".jpg)"});
+        $(this).closest("html").find(".popup .img").css({"background-image":"url(../img/interior_0"+$index+".jpg)"});
         $(".darkness").addClass("active");
         $(".popup").addClass("active");      
         return false;
@@ -104,7 +104,7 @@ $(document).ready(function(){
     $(".tab .tab_cont > div:nth-child(2) span").click(function(){
         var $index = $(this).closest("li").index()+1;
         console.log($index);
-        $(this).closest("html").find(".popup .img").css({"background-image":"url(./img/exterior_0"+$index+".jpg)"});
+        $(this).closest("html").find(".popup .img").css({"background-image":"url(../img/exterior_0"+$index+".jpg)"});
         $(".darkness").addClass("active");
         $(".popup").addClass("active");      
         return false;
@@ -112,7 +112,7 @@ $(document).ready(function(){
     $(".tab .tab_cont > div:nth-child(3) span").click(function(){
         var $index = $(this).closest("li").index()+1;
         console.log($index);
-        $(this).closest("html").find(".popup .img").css({"background-image":"url(./img/furniture_0"+$index+".jpg)"});
+        $(this).closest("html").find(".popup .img").css({"background-image":"url(../img/furniture_0"+$index+".jpg)"});
         $(".darkness").addClass("active");
         $(".popup").addClass("active");      
         return false;
